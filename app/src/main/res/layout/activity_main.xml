@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myscrollviewdemo.MyReboundScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher"
+    tools:context=".MianAtivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+     <com.myscrollviewdemo.MyListView
+         android:id="@+id/myListView"
+         android:background="#ffffff"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         ></com.myscrollviewdemo.MyListView>
+    </LinearLayout>
+</com.myscrollviewdemo.MyReboundScrollView>
